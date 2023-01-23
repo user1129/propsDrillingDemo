@@ -1,0 +1,24 @@
+body{
+    font-family: 'Fira Code';
+}
+.App{
+    margin: 0 auto;
+    max-width: fit-content;
+}
+
+label{
+    display: flex;
+    gap:20px
+}
+
+li{
+    display: flex;
+    gap:20px;
+    font-size: 15px;
+}
+span{
+    cursor: pointer;
+}
+input:checked + span {
+    text-decoration: line-through;
+}
